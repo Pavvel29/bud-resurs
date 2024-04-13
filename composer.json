@@ -1,0 +1,16 @@
+{
+    "name": "pavel/telegram-sender",
+    "description": "telega bot",
+    "autoload": {
+        "psr-4": {
+            "Pavel\\TelegramSender\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavvel29",
+            "email": "pahaaaa@ukr.net"
+        }
+    ],
+    "require": {}
+}

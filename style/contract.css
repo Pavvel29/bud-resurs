@@ -1,0 +1,72 @@
+/* Початково ховаємо блок */
+.contract {
+  display: none; 
+}
+
+/* Показуємо блок тільки під час друку */
+@media print {
+  .contract {
+    display: block; 
+  }
+
+  .contract > .signature {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contract .signature table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .contract .signature td {
+    padding: 0 10px; 
+  }
+
+  .contract .name p {
+    margin-bottom: 10px;
+    text-align: center; /* Центруємо текст в таблиці */
+  }
+}
+
+/* Стилі для контракту */
+.contract {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contract h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contract .logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contract .section p {
+  margin-bottom: 15px;
+}
+
+.contract .section ol {
+  padding-left: 20px;
+}
+
+.contract .section li {
+  margin-bottom: 10px;
+}
+
+.contract .section li strong {
+  font-weight: bold;
+}
+
+.contract .section ul {
+  margin-top: 10px;
+}

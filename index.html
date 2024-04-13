@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Інструменти для ремонту та будівництва від Orenda - ваш надійний помічник у вирішенні будь-яких завдань. Якість, надійність та комфорт в роботі." />
+    <meta name="keywords" content="інструменти, ремонт, будівництво, Orenda, якість, надійність, комфорт" />
+    <meta property="og:title" content="Буд Ресурс">
+    <meta property="og:site_name" content="Bud Resurs" />
+    <meta property="og:description" content="Інструменти для будівництва в оренду">
+    <meta property="og:image" content="./images/logotip/BudResursBlack.svg">
+    <meta property="og:url" content="" id="og-url">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Буд Ресурс">
+    <meta name="twitter:description" content="Інструменти для будівництва в оренду">
+    <meta name="twitter:image" content="./images/logotip/BudResursBlack.svg">
+    <link rel="icon" type="image/x-icon" href="images/icon/icon2.ico" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/nullstayle.css"/>
+    <link rel="stylesheet" href="./style/question.css"/>
+    <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="stylesheet" href="./style/contract.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        var currentURL = window.location.href;
+        document.querySelector('meta[property="og:url"]').setAttribute('content', currentURL);
+    </script>
+    <script src="./script/CONTENT.js"></script>
+    <script defer src="./script/realisationLIstener.js"></script>
+    <script defer src="./script/createrElemnt.js"></script>
+    <script defer src="./script/slider.js"></script>
+    <script defer src="./script/changeTheme.js"></script>
+    <script type="module" defer src="./script/question.js"></script>
+    <script defer src="./script/listeners.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="./script/main.js"></script>
+    <script defer src="./script/scritp.js"></script>
+    <script defer src="./script/price.js"></script>
+    <title>OI</title>
+    
+  </head>
+  <body>
+    <div class="soc-seti">
+      <div class="soc-seti__item">
+        <a href="#" target="_blank">
+          <img src="#" alt="no faund" title="Telegram">
+        </a>
+      </div>
+      <div class="soc-seti__item">
+        <a href="#" target="_blank">
+          <img src="#" alt="no faund" title="Facebook">
+        </a>
+      </div>
+      <div class="soc-seti__item">
+        <a href="#" target="_blank">
+          <img src="#" alt="no faund" title="Instagram">
+        </a>
+      </div>
+      <div class="soc-seti__item">
+        <a href="#" target="_blank">
+          <img src="#" alt="no faund" title="YouTube">
+        </a>
+      </div>
+    </div>
+
+
+    <div class="modal-widnow none"></div>
+    </div>
+    <div class="content">
+      <header class="header">
+        <div class="header__info">
+          <div class="header__info-logo">
+            <!-- <img src="./images/logotip/logotip1.svg" alt="no faund" /> -->
+          </div>
+          <nav class="navigation">
+            <ul>
+              <!-- <li></li> -->
+            </ul>
+          </nav>
+          <div class="header__info-button">
+            <i class="material-icons">brightness_3</i>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="presentation" style="background-color: var(--efetColor)">
+          <div class="presentation__fone-image"></div>
+          <div class="presentation__up-contects">
+            <div class="presentation__up-contects-telephon">
+              <i class="material-icons">local_phone</i>
+              <div class="conteiner-phone"></div>
+            </div>
+            <div class="presentation__up-contects-telegram">
+              <a href="#form"><i class="material-icons">send</i></a>
+            </div>
+          </div>
+          <div class="presentation__info">
+            <div class="presentation__info-logotip"></div>
+            <div class="presentation__info-text"></div>
+            <div class="presentation__info-contacts">
+              <div class="presentation__info-contacts-address">
+                <i class="material-icons">location_on</i>
+                <div class="decorator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider2__conteiner" id="form">
+          <div class="slider2__block">
+            <div class="slider2"></div>
+          </div>
+        </div>
+        <!--Потрібен білд на Джава скріпт-->
+        <!---->
+        <div class="feedback-form">
+          <div class="feedback-form-conteiner">
+            <div class="feedback-form-conteiner__header"></div>
+            <form class="telegram-form">
+              <!-- <input
+                class="input-name"
+                type="text"
+                name="name"
+                placeholder="Имя (обов'язково)"
+                autocomplete="off"
+              /> -->
+              <!-- <input
+                class="input-phone"
+                type="text"
+                name="phone"
+                placeholder="Телефон (обов'язково)"
+                autocomplete="off"
+              />
+              <input
+                class="input-email"
+                type="text"
+                name="email"
+                placeholder="Telegram посилання чи логін (Не обов'язково)"
+                autocomplete="off"
+              />
+              <textarea
+                name="text"
+                placeholder="Напешіть що ви хочете орендувати на який термін, що ви хочете робить нашим інструментом"
+                class="input-text-area"
+              ></textarea> -->
+              <!-- <input type="file" name="file" /> -->
+              <!-- <button type="submit" class="btn">Відправити</button> -->
+            </form>
+          </div>
+        </div>
+
+        <div class="price" id="price">
+          <div class="price-header">
+          <h1>Тарифи, вартість, ціни</h1>
+          <p>Укладаємо договір обслуговування інструментів, також можемо надати спеціалістів для виконання робіт. Пидписуємо, умови співпраці, відповідальність сторін</p>
+          </div>
+          <div class="price__block">
+              <div class="price__container">
+                <div class="instruments">
+                  <h4>Інструмент</h4>
+                </div>
+                <div class="one-hour">
+                  <h4>Модель</h4>
+                </div>
+                <div class="one-day">
+                  <h4>Ціна за добу(грн)</h4>
+                </div>
+                <div class="one-week">
+                  <h4>Сума залогу(грн)</h4>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="conditions" id="conditions">
+          <div class="conditions__block">
+              <h1>Умови оренди</h1>
+          </div>
+          <div class="print-button">
+
+
+
+            <div class="contract">
+              <div class="logo">
+                <img src="./images/logotip/BudResursBlack.svg" alt="Логотип компанії" style="max-width: 100px;">
+              </div>
+              <h1>Договір оренди будівельного обладнання</h1>
+              <div class="section">
+                  <p>Між Фірмою "Будресурс" (далі - "Орендодавець") та _______________________________ (далі - "Орендар") укладено наступну угоду:</p>
+                  <ol>
+                      <li><strong>Предмет договору:</strong> Орендодавець передає в оренду будівельне обладнання, зазначене у додатку до цього договору, а Орендар приймає його в оренду на умовах, визначених цим договором.</li>
+                      <li><strong>Умови оренди:</strong>
+                          <ul>
+                              <li>Для укладання договору Орендареві необхідно мати при собі паспорт оригінал з пропискою в місті Києві або області та ідентифікаційний код оригінал.</li>
+                              <li>Застава збільшується на 20% у разі пред'явлення документів із пропискою в інших областях.</li>
+                              <li>З документів знімається ксерокопія, а оригінали повертаються власнику.</li>
+                              <li>У випадку відсутності повного комплекту документів застава складає 50% вартості обладнання.</li>
+                          </ul>
+                      </li>
+                      <li><strong>Оплата оренди та умови використання:</strong>
+                          <ul>
+                              <li>Орендар зобов'язується сплатити 50% вартості інструменту перед початком терміну оренди.</li>
+                              <li>Після укладання договору оплачується орендна плата за користування інструментом на необхідний термін.</li>
+                              <li>За допомогою орендованого інструменту виконуються необхідний обсяг робіт згідно правил безпеки. Використання інструменту не за призначенням суворо заборонено.</li>
+                          </ul>
+                      </li>
+                      <li><strong>Повернення інструменту:</strong>
+                          <ul>
+                              <li>Після закінчення терміну оренди інструмент повертається на склад.</li>
+                              <li>Інструмент приймають працівники складу з перевіркою справності, та відсутності забруднень.</li>
+                              <li>У разі поломки інструменту по вині замовника та невиконання правил використання та безпеки залог не повертається. Спільно з орендарем виясняються причини несправності. В разі вини орендаря, замовник сплачує суму залогу, який не повертається.</li>
+                          </ul>
+                      </li>
+                      <li><strong>Форс-мажорні обставини:</strong>
+                          <ul>
+                              <li>Жодна зі сторін не несе відповідальності за невиконання або неналежне виконання зобов'язань за цим договором у випадку непереборної сили або інших форс-мажорних обставин, які перешкоджають виконанню договірних зобов'язань.</li>
+                          </ul>
+                      </li>
+                      <li><strong>Заключні положення:</strong>
+                          <ul>
+                              <li>Даний договір складений в двох примірниках, по одному для кожної зі сторін.</li>
+                              <li>Любі зміни або додатки до цього договору мають бути оформлені в письмовій формі та підписані обома сторонами.</li>
+                          </ul>
+                      </li>
+                  </ol>
+              </div>
+              <table width="100%">
+                <tr>
+                    <td>
+                        <div class="name">
+                            <p>Орендодавець: ________________________</p>
+                            <p>Дата: ________________________</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="name">
+                            <p>Орендар: ________________________</p>
+                            <p>Дата: ________________________</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            <button>Роздрукувати договір <i class="material-icons">print</i></button>
+          </div>
+        </div>
+        <div class="question">
+          <div class="question__hedliner">
+            <h2>Питання які можуть у вас виникнути</h2>
+          </div>
+          <div class="question__card"></div>
+        </div>
+        <div class="map" id="contact"></div>
+      </main>
+      <footer class="footer">
+        <div class="footer-info">
+          <div class="footer-info__logotip"></div>
+          <div class="footer-info__contact"></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
