@@ -11,11 +11,11 @@ presentationSlider.get_slider;
 
 const advarstingSlider = deepClone(slider);
 advarstingSlider.box = ".slider2";
-advarstingSlider.setingsAnimation.activationAnimation = Content.optiSlider1.activationAnimation;
-advarstingSlider.setingsAnimation.durationAnimation = 3000;
+// advarstingSlider.setingsAnimation.activationAnimation = Content.optiSlider1.activationAnimation;
+// advarstingSlider.setingsAnimation.durationAnimation = 3000;
 advarstingSlider.orientation = "gorizontal" //vertical||gorizontal
 advarstingSlider.number_visible_options = 4;
-advarstingSlider.speed_scroll_options = { time: 5, step: 10 };
+advarstingSlider.speed_scroll_options = { time: 15, step: 10 };
 advarstingSlider.setArrImg = Content.pathSlider2
 advarstingSlider.get_slider;
 
