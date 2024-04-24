@@ -1,0 +1,164 @@
+.question {
+  width: 100%;
+  min-height: 44.81vw; /*860/1919*100 = 44.815007816571125*/
+  padding: 2.08%; /*40/1919*100 = 2.084418968212611*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.question__hedliner {
+  width: 62.53%; /*1200/1919*100 = 62.53256904637831*/
+  min-height: 1.56vw; /*30/1919*100 = 1.5633142261594581*/
+  margin-bottom: 3.12%; /*60/1919*100 = 3.1266284523189163*/
+}
+.question__hedliner > h2 {
+  color:var(--textColor);
+  font-size: var(--fontH2);
+  text-align: center;
+}
+.question__hedliner-text {
+  width: 100%; /*1200*/
+  min-height: 0.52vw; /*10/1919*100 = 0.5211047420531527*/
+  margin-bottom: 1.66%; /*20/1200*100 = 1.6666666666666667*/
+}
+.question__hedliner-text > .p-min3 {
+  text-align: center;
+}
+.question__hedliner-text-dop {
+  width: 100%;
+  min-height: 0.52vw; /*10/1919*100 = 0.5211047420531527*/
+}
+.question__hedliner-text-dop > .p-min2 {
+  text-align: center;
+}
+.question__card {
+  width: 62.53%; /*1200/1919*100 = 62.53256904637831*/
+  min-height: 5.21vw; /*100/1919*100 = 5.211047420531527*/
+}
+.question__card-item {
+  width: 100%;
+  min-height: 4.42vw; /*85/1919*100 = 4.429390307451798*/
+  margin-bottom: 0.41%; /*5/1200*100 = 0.4166666666666667*/
+  background-color: rgba(255, 255, 255, 0.09);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.question__card-item:last-child {
+  margin-bottom: 0;
+}
+
+/* #item{
+  
+} */
+.question__card-item-text {
+  flex-grow: 1;
+  min-height: 4.42vw; /*85/1919*100 = 4.429390307451798*/
+}
+.question__card-item-text-question {
+  width: 100%;
+  min-height: 4.42vw;
+  color:var(--textColor); /*85/1919*100 = 4.429390307451798*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.83% /*10/1200*100 = 0.8333333333333334*/;
+}
+.question__card-item-text-answer {
+  width: 100%;
+  max-height: 0px;
+  overflow: hidden;
+  color:var(--textColor);
+  padding: 0 0.83%; /*10/1200*100 = 0.8333333333333334*/
+  transition: max-height 0.4s;
+}
+
+.list__button {
+  width: 7.08%; /*85/1200*100 = 7.083333333333333*/
+  height: 4.42vw; /*85/1919*100 = 4.429390307451798*/
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list__button > label {
+  display: block;
+  width: 2.6vw; /*50/1919*100 = 2.6055237102657633*/
+  min-height: 2.6vw; /*50/1919*100 = 2.6055237102657633*/
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.114);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(189, 196, 52);
+  font-size: 2.08vw; /*40/1919*100 = 2.084418968212611*/
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.2s, transform 0.3s;
+}
+.list__button > label:hover {
+  background-color: rgba(255, 255, 255, 0.253);
+}
+
+@media (max-width: 1000px) {
+  .question__hedliner {
+    width: 100%;
+  }
+  .question__hedliner-text > .p-min3 {
+    font-size: 2.93vw;
+    line-height: 3.4vw;
+  }
+  .question__hedliner-text-dop > .p-min2 {
+    font-size: 4.3vw;
+  }
+  .question__card {
+    width: 90%;
+  }
+  .question__card-item-text-answer > .p-min3 {
+    font-size: 1.93vw;
+    line-height: 2.4vw;
+  }
+  .question__card-item-text-question > h4 {
+    font-size: 3.45vw;
+    line-height: 4.2vw;
+  }
+  .list__button {
+    width: 9.08%;
+    height: 6.42vw;
+  }
+  .list__button > label {
+    width: 3.6vw;
+    min-height: 3.6vw;
+    font-size: 3.08vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .question__card-item-text-question > h4 {
+    font-size: 5.45vw;
+    line-height: 6.2vw;
+  }
+  .list__button > label {
+    width: 5.6vw;
+    min-height: 5.6vw;
+    font-size: 5.08vw;
+  }
+  .question__card-item-text-answer > .p-min3 {
+    font-size: 2.93vw;
+    line-height: 3.4vw;
+  }
+  .question__card-item {
+    margin-bottom: 2.41%;
+  }
+  .list__button {
+    height: 8.42vw;
+  }
+}
